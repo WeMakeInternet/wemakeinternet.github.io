@@ -1,0 +1,13 @@
+a { color: #424242; }
+
+li {
+  font-size: 0.7em;
+  line-height: 1.52em;
+}
+
+.end-signature {
+  font-size: 0.4em;
+  line-height: 0;
+}
+
+footer p { margin: 0; }

@@ -1,0 +1,83 @@
+/*
+ * Font Noto Serif
+ */
+
+/* latin-ext */
+@font-face {
+  font-family: 'Noto Serif';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Noto Serif'), local('NotoSerif'), url(http://fonts.gstatic.com/s/notoserif/v4/fVu1p3782bqS2z-CaJvp9gsYbbCjybiHxArTLjt7FRU.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Noto Serif';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Noto Serif'), local('NotoSerif'), url(http://fonts.gstatic.com/s/notoserif/v4/eCpfeMZI7q4jLksXVRWPQwsYbbCjybiHxArTLjt7FRU.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+
+/*
+ * Style
+ */
+	body {
+		background-color: #E9E9E9;
+		font-family: 'Noto Serif', serif;
+		font-size: 2em;
+		color: #424242;
+	}
+	header,
+  section,
+  footer {
+		max-width: 70%;
+		margin: 0 auto;
+	}
+	h1 {
+		font-size: 2em;
+		line-height: 2em;
+		color: #424242;
+	}
+
+	p {
+		font-size: 0.7em;
+		line-height: 1.52em;
+	}
+
+	a {
+		text-decoration: none;
+		color: #3299BB;
+	}
+
+	a:hover { color: #FF9900; }
+
+	.link { color: #3299BB }
+
+ p img {
+  width: 1.3em;
+  vertical-align: text-top;
+ }
+
+	footer p {
+		font-size: 0.4em;
+		color: #BCBCBC;
+		margin: 4em 0 1rem;
+	}
+
+ @media (max-width: 810px){
+  header,
+  section,
+  footer { max-width: 80%; }
+  h1 {
+   font-size: 1.4em;
+   line-height: 1.2em;
+  }
+ }
+
+ @media (max-width: 570px){
+  header,
+  section,
+  footer { max-width: 86%; }
+  h1 { font-size: 1em; }
+ }
